@@ -1,0 +1,14 @@
+.home-first-section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.first-section {
+    border-left: 3px solid green;
+}
+
+.first-section h1 {
+    margin-left: 10px;
+}
