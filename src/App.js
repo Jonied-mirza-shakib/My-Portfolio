@@ -6,6 +6,7 @@ import Home from './Component/Home/Home';
 import MyMission from './Component/MyMission/MyMission';
 import MyHobbies from './Component/MyHobbies/MyHobbies';
 import MyProjects from './Component/MyProjects/MyProjects';
+import Dashboard from './Component/Dasboard/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/myMission' element={<MyMission></MyMission>}></Route>
           <Route path='/hobbies' element={<MyHobbies></MyHobbies>}></Route>
           <Route path='/projects' element={<MyProjects></MyProjects>}></Route>
+          <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         </Routes>
       </div>
     </div>
