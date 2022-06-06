@@ -22,7 +22,7 @@ const Home = () => {
                         <h2 style={{ color: 'dimgray', marginBottom: '10px' }}>HELLO!</h2>
                         <h2 style={{ color: 'dimgray', marginBottom: '10px' }}>I AM JONIEAD MIRZA SHAKIB</h2>
                         <p style={{ fontWeight: 'bold', color: 'darkblue', marginBottom: '20px' }}>I Am Junior MERN-Stack Web Devloper</p>
-                        <a style={{ fontSize: '15px', fontWeight: 'bold' }} className='btn btn-primary rounded' href="https://drive.google.com/uc?export=download&id=1kQLwspXeiKHe9ELTpkCBjtVrtC8GZGN3" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
+                        <a style={{ fontSize: '15px', fontWeight: 'bold' }} className='btn btn-primary rounded' href="https://drive.google.com/uc?export=download&id=1M8w_FEcv0alCqhUVRHspZwRNPMY0aShn" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
                     </div>
                     <div className="col-md-12 col-lg-6">
                         <img style={{ width: '70%' }} src={img} alt="" />
