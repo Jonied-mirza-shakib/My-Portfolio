@@ -17,7 +17,7 @@ const MyHobbies = () => {
                 <div className="col-md-12 col-lg-6">
                     <div style={{ width: '100%', height: '290px', display: 'flex', alignItems: 'center' }} className="card shadow-lg bg-body rounded">
                         <div className="card-body" style={{ backgroundColor: 'darkcyan' }}>
-                            <h5 style={{ fontSize: '20px', color: 'aliceblue', marginTop: '30px' }}>My hobbies are blogging, traveling, swimming, and my hobbies are working on new projects. And I can speak Bengali and English very well.</h5>
+                            <h5 style={{ fontSize: '20px', color: 'aliceblue', marginTop: '30px' }}>Hello, I'm Jonied Mirza Shakib.My hobbies are blogging, traveling, swimming, and my hobbies are working on new projects. And I can speak Bengali and English very well.</h5>
                         </div>
                     </div>
                 </div>

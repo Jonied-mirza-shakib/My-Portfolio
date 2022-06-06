@@ -6,13 +6,14 @@ import MyMission from '../MyMission/MyMission';
 import MyHobbies from '../MyHobbies/MyHobbies';
 import MySkill from '../MySkill/MySkill';
 import MyProjects from '../MyProjects/MyProjects';
+import ContactMe from '../ContactMe/ContactMe';
 
 const Home = () => {
     return (
         <div>
             <div className='home-first-section'>
                 <div className='row'>
-                    <div className="col-lg-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className='first-section'>
                             <h1 style={{ color: 'dimgray', marginBottom: '10px' }}><span>Web Developer</span>
                                 <br />
@@ -23,7 +24,7 @@ const Home = () => {
                         <p style={{ fontWeight: 'bold', color: 'darkblue', marginBottom: '20px' }}>I Am Junior MERN-Stack Web Devloper</p>
                         <a style={{ fontSize: '15px', fontWeight: 'bold' }} className='btn btn-primary rounded' href="https://drive.google.com/uc?export=download&id=1kQLwspXeiKHe9ELTpkCBjtVrtC8GZGN3" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-md-12 col-lg-6">
                         <img style={{ width: '70%' }} src={img} alt="" />
                     </div>
                 </div>
@@ -32,6 +33,7 @@ const Home = () => {
             <MyHobbies></MyHobbies>
             <MySkill></MySkill>
             <MyProjects></MyProjects>
+            <ContactMe></ContactMe>
         </div>
     );
 };

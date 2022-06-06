@@ -4,12 +4,11 @@ import doctorsPortal from '../../img/doctor.png'
 import motorPart from '../../img/motor.png'
 import gymTrainer from '../../img/gym.png'
 
-const MyProjects = () => {
+const MyAllProjects = () => {
     return (
         <div className='mb-5'>
             <div style={{ marginTop: '50px', marginBottom: '50px' }}>
-                <h2 style={{ color: 'darkblue', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '35px' }} className='text-center'>My Latest <span style={{ color: 'orange' }}>projects</span> </h2>
-                <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '400px', margin: 'auto' }}></div>
+                <h2 style={{ color: 'darkblue', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '35px' }} className='text-center'>My Latest All <span style={{ color: 'orange' }}>projects</span> </h2>
             </div>
             <div>
                 <div className="row">
@@ -87,4 +86,4 @@ const MyProjects = () => {
     );
 };
 
-export default MyProjects;
+export default MyAllProjects;
