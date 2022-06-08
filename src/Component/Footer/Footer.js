@@ -22,7 +22,7 @@ const Footer = () => {
                     <a href="https://github.com/Jonied-mirza-shakib" style={{ color: 'white', fontSize: '25px' }} target='_blank'><AiFillGithub /></a>
                 </div>
                 <div className="col-sm-6 col-md-3 col-lg-3">
-                    <a href="https://www.linkedin.com/in/jonied-mirza-shakib-bb455922a/" style={{ color: 'white', fontSize: '25px' }} target='_blank'><AiFillLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/jonied-mirza-shakib/" style={{ color: 'white', fontSize: '25px' }} target='_blank'><AiFillLinkedin /></a>
                 </div>
             </div>
         </div>
