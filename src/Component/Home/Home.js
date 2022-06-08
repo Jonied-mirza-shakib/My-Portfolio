@@ -25,7 +25,7 @@ const Home = () => {
                         <a style={{ fontSize: '15px', fontWeight: 'bold' }} className='btn btn-primary rounded' href="https://drive.google.com/uc?export=download&id=1M8w_FEcv0alCqhUVRHspZwRNPMY0aShn" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
                     </div>
                     <div className="col-md-12 col-lg-6">
-                        <img style={{ width: '70%' }} src={img} alt="" />
+                        <img style={{ width: '50%' }} src={img} alt="" />
                     </div>
                 </div>
             </div>
