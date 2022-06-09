@@ -6,14 +6,14 @@ import gymTrainer from '../../img/gym.png'
 
 const MyProjects = () => {
     return (
-        <div className='mb-5'>
+        <div className='mb-5 container'>
             <div style={{ marginTop: '50px', marginBottom: '50px' }}>
                 <h2 style={{ color: 'darkblue', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '35px' }} className='text-center'>My Latest <span style={{ color: 'orange' }}>projects</span> </h2>
                 <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '400px', margin: 'auto' }}></div>
             </div>
             <div>
                 <div className="row">
-                    <div className="col-md-12 col-lg-6">
+                    <div className="col-md-12 col-lg-6 mb-sm-3 mb-md-3">
                         <div className="card shadow-lg" style={{ backgroundColor: 'darkcyan', width: '100%', height: '800px' }}>
                             <div className="card-body">
                                 <img className='w-100 mb-3' src={doctorsPortal} alt="" />
@@ -36,7 +36,7 @@ const MyProjects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-12 col-lg-6">
+                    <div className="col-md-12 col-lg-6 mb-sm-3 mb-md-3">
                         <div className="card shadow-lg" style={{ backgroundColor: 'darkcyan', width: '100%', height: '800px' }}>
                             <div className="card-body">
                                 <img className='w-100 mb-3' src={motorPart} alt="" />
@@ -60,7 +60,7 @@ const MyProjects = () => {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-md-12 col-lg-6">
+                    <div className="col-md-12 col-lg-6 mb-sm-3 mb-md-3">
                         <div className="card shadow-lg" style={{ backgroundColor: 'darkcyan', width: '100%', height: '800px' }}>
                             <div className="card-body">
                                 <img className='w-100 mb-3' src={gymTrainer} alt="" />

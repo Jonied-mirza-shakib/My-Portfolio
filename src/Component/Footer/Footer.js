@@ -5,10 +5,10 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div style={{ marginTop: '70px', backgroundColor: 'black', padding: '50px' }}>
+        <div style={{ paddingTop: '70px', backgroundColor: 'gray', padding: '50px' }}>
             <div className='row'>
                 <div className="col-12">
-                    <p className='text-center' style={{ fontWeight: 'bold', fontSize: '18px', color: 'gainsboro', textTransform: 'capitalize', fontFamily: 'monospace' }}>&copy; copy right form Junied mirza shakib</p>
+                    <p className='text-center' style={{ fontWeight: 'bold', fontSize: '18px', color: 'white', textTransform: 'capitalize', fontFamily: 'monospace' }}>&copy; copy right form Junied mirza shakib</p>
                 </div>
             </div>
             <div className="row mt-3" style={{ margin: 'auto', textAlign: 'center' }}>

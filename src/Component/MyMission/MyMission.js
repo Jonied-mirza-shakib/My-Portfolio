@@ -3,12 +3,12 @@ import './MyMission.css'
 
 const MyMission = () => {
     return (
-        <div className='mb-5'>
+        <div className='mb-5 container'>
             <h2 className='mt-5 heading'>My Mission in <span style={{ color: 'orange' }}>2022</span> </h2>
             <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '400px', margin: 'auto' }}></div>
             <div>
                 <div className="row">
-                    <div className="col-md-12 col-lg-4">
+                    <div className="col-md-12 col-lg-4 mb-sm-3 mb-md-3">
                         <div style={{ width: '100%', height: '300px', backgroundColor: 'darkcyan' }} className="card shadow-lg rounded">
                             <div className="card-body">
                                 <h3 className='text-center mt-3 text-white' style={{ textTransform: 'uppercase' }}>Mission</h3>
@@ -17,7 +17,7 @@ const MyMission = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-12 col-lg-4">
+                    <div className="col-md-12 col-lg-4 mb-sm-3 mb-md-3">
                         <div style={{ width: '100%', height: '300px', backgroundColor: 'darkcyan', overflow: 'scroll' }} className="card shadow-lg rounded">
                             <div className="card-body">
                                 <h3 className='text-center mt-3 text-white' style={{ textTransform: 'uppercase' }}>About Me</h3>
