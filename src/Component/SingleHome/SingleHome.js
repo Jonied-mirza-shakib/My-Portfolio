@@ -11,7 +11,7 @@ const SingleHome = () => {
                         <h1 style={{ color: 'white', marginBottom: '10px' }}>HI!</h1>
                         <h1 style={{ color: 'white', marginBottom: '10px' }}>I AM JONIEAD MIRZA SHAKIB</h1>
                         <p style={{ fontWeight: 'bold', color: 'white', marginBottom: '20px', textTransform: 'uppercase' }}>I Am Junior MERN-Stack Web Developer</p>
-                        <a style={{ fontSize: '15px', fontWeight: 'bold', textTransform: 'uppercase' }} className='btn btn-warning text-light rounded' href="https://drive.google.com/uc?export=download&id=1M8w_FEcv0alCqhUVRHspZwRNPMY0aShn" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
+                        <a style={{ fontSize: '15px', fontWeight: 'bold', textTransform: 'uppercase' }} className='btn btn-outline-success text-light rounded' href="https://drive.google.com/uc?export=download&id=1M8w_FEcv0alCqhUVRHspZwRNPMY0aShn" target='_blank'> <span style={{ fontSize: '25px' }}><ImMan /></span> Download My Resume</a>
                     </div>
                     <div className="col-md-12 col-lg-6">
                         <img style={{ width: '100%' }} src={img} alt="" />
