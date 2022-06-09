@@ -4,7 +4,7 @@ import './MyMission.css'
 const MyMission = () => {
     return (
         <div className='mb-5 container'>
-            <h2 className='mt-5 heading'> ABOUT ME</h2>
+            <h2 className='heading'> ABOUT ME</h2>
             <div className='mb-5' style={{ border: '2px solid white', maxWidth: '200px', margin: 'auto' }}></div>
             <div>
                 <div className="row">

@@ -9,7 +9,7 @@ const ContactMe = () => {
     }
     return (
         <div>
-            <div style={{ marginTop: '50px' }} className='container'>
+            <div style={{ marginTop: '80px' }} className='container'>
                 <h2 className='text-center' style={{ color: 'white', textTransform: 'uppercase' }}>Contact Me</h2>
                 <div className='mb-5' style={{ border: '2px solid white', maxWidth: '320px', margin: 'auto' }}></div>
                 <div style={{ backgroundColor: 'gray' }} className="pt-3">

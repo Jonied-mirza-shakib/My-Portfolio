@@ -3,7 +3,7 @@ import './MyHobbies.css'
 import hobbiesImg from '../../img/boss.png'
 const MyHobbies = () => {
     return (
-        <div className='container' style={{ marginTop: '60px' }}>
+        <div className='container' style={{ paddingTop: '80px' }}>
             <h2 style={{ color: 'white' }} className='hobbies-heading'>My Hobbies and <span style={{ color: 'orange' }}>Language</span> </h2>
             <div className='mb-5' style={{ border: '2px solid white', maxWidth: '450px', margin: 'auto' }}></div>
             <div className="row my-3">

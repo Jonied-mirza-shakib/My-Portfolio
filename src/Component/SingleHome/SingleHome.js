@@ -6,7 +6,7 @@ const SingleHome = () => {
     return (
         <div style={{ backgroundColor: 'black' }}>
             <div className='container pt-5 pb-3'>
-                <div className='row'>
+                <div className='row' style={{ marginTop: '50px' }}>
                     <div className="col-md-12 col-lg-6 mt-5 pt-2">
                         <h1 style={{ color: 'white', marginBottom: '10px' }}>HI!</h1>
                         <h1 style={{ color: 'white', marginBottom: '10px' }}>I AM JONIEAD MIRZA SHAKIB</h1>

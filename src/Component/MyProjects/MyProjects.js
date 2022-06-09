@@ -8,7 +8,7 @@ import crypto from '../../img/crypto.png'
 const MyProjects = () => {
     return (
         <div className='mb-5 container'>
-            <div style={{ marginTop: '50px', marginBottom: '50px' }}>
+            <div style={{ marginTop: '80px', marginBottom: '50px' }}>
                 <h2 style={{ color: 'white', textTransform: 'uppercase', fontWeight: 'bold', fontSize: '35px' }} className='text-center'>My Latest <span style={{ color: 'orange' }}>projects</span> </h2>
                 <div className='mb-5' style={{ border: '2px solid white', maxWidth: '400px', margin: 'auto' }}></div>
             </div>
