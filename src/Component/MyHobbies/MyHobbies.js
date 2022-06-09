@@ -4,8 +4,8 @@ import hobbiesImg from '../../img/boss.png'
 const MyHobbies = () => {
     return (
         <div className='container' style={{ marginTop: '60px' }}>
-            <h2 style={{ color: 'darkblue' }} className='hobbies-heading'>My Hobbies and <span style={{ color: 'orange' }}>Language</span> </h2>
-            <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '450px', margin: 'auto' }}></div>
+            <h2 style={{ color: 'white' }} className='hobbies-heading'>My Hobbies and <span style={{ color: 'orange' }}>Language</span> </h2>
+            <div className='mb-5' style={{ border: '2px solid white', maxWidth: '450px', margin: 'auto' }}></div>
             <div className="row my-3">
                 <div className="col-md-12 col-lg-6 mb-sm-3 mb-md-3">
                     <div className="card shadow-lg bg-body rounded">

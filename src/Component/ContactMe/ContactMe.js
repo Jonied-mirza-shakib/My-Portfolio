@@ -1,26 +1,47 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { useForm, ValidationError } from '@formspree/react';
+import './ContactMe.css'
 
 const ContactMe = () => {
+    const [state, handleSubmit] = useForm("mvolpkpz");
+    if (state.succeeded) {
+        alert('your message send is success')
+    }
     return (
-        <div style={{ marginTop: '50px' }}>
-            <h2 className='text-center' style={{ color: 'orange', textTransform: 'uppercase' }}>Contact Me</h2>
-            <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '320px', margin: 'auto' }}></div>
+        <div style={{ marginTop: '50px' }} className='container'>
+            <h2 className='text-center' style={{ color: 'white', textTransform: 'uppercase' }}>Contact Me</h2>
+            <div className='mb-5' style={{ border: '2px solid white', maxWidth: '320px', margin: 'auto' }}></div>
             <div style={{ backgroundColor: 'gray' }} className="pt-3">
-                <Form style={{ width: '50%', margin: 'auto' }} action='https://formspree.io/f/mvolpkpz' method='post'>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label className='text-white' style={{ fontWeight: 'bold' }}>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter your email" />
-                    </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label className='text-white' style={{ fontWeight: 'bold' }}>Message</Form.Label>
-                        <Form.Control as="textarea" rows="3" name="message" placeholder="Enter your Message" />
-                    </Form.Group>
-                    <Button variant="primary" type="submit" className='w-100 fs-5'>
+                <form onSubmit={handleSubmit} className='form w-75 m-auto'>
+                    <label htmlFor="email">
+                        Email Address
+                    </label>
+                    <input
+                        id="email"
+                        type="email"
+                        name="email"
+                    />
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
+                    <label htmlFor="message">
+                        Message
+                    </label>
+                    <textarea
+                        id="message"
+                        name="message"
+                    />
+                    <ValidationError
+                        prefix="Message"
+                        field="message"
+                        errors={state.errors}
+                    />
+                    <button type="submit" className='btn btn-primary w-100'>
                         Submit
-                    </Button>
-                </Form>
+                    </button>
+                </form>
             </div>
         </div>
     );

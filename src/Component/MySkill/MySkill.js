@@ -7,8 +7,8 @@ const MySkill = () => {
         <div style={{ marginBottom: '50px' }}>
             <div className="row">
                 <div className="col-12">
-                    <h2 className='text-center' style={{ fontSize: '35px', marginTop: '50px', textTransform: 'uppercase', color: 'darkblue' }}>My Skill</h2>
-                    <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '200px', margin: 'auto' }}></div>
+                    <h2 className='text-center' style={{ fontSize: '35px', marginTop: '50px', textTransform: 'uppercase', color: 'white' }}>My Skill</h2>
+                    <div className='mb-5' style={{ border: '2px solid white', maxWidth: '200px', margin: 'auto' }}></div>
                 </div>
             </div>
             <div className="container">

@@ -4,8 +4,8 @@ import './MyMission.css'
 const MyMission = () => {
     return (
         <div className='mb-5 container'>
-            <h2 className='mt-5 heading'>My Mission in <span style={{ color: 'orange' }}>2022</span> </h2>
-            <div className='mb-5' style={{ border: '2px solid darkcyan', maxWidth: '400px', margin: 'auto' }}></div>
+            <h2 className='mt-5 heading'> ABOUT ME</h2>
+            <div className='mb-5' style={{ border: '2px solid white', maxWidth: '200px', margin: 'auto' }}></div>
             <div>
                 <div className="row">
                     <div className="col-md-12 col-lg-4 mb-sm-3 mb-md-3">
