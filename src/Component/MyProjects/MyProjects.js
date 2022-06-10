@@ -4,6 +4,7 @@ import doctorsPortal from '../../img/doctor.png'
 import motorPart from '../../img/motor.png'
 import gymTrainer from '../../img/gym.png'
 import crypto from '../../img/crypto.png'
+import { Link } from 'react-router-dom';
 
 const MyProjects = () => {
     return (
@@ -106,6 +107,11 @@ const MyProjects = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px' }}>
+                <Link to={'/projects'}>
+                    <button type='button' className='btn btn-outline-primary rounded text-white' style={{ fontSize: '25px' }}>My All Projects</button>
+                </Link>
             </div>
         </div>
     );
